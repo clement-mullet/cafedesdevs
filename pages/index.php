@@ -24,15 +24,106 @@
     </head>
     <body>
         <div id="main">
+            <?= $show->menu(); ?>
             <div id="wrapper">
-                <article>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202.24 202.24"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Asset 3</title><g id="Layer_2" data-name="Layer 2"><g id="Capa_1" data-name="Capa 1"><path class="cls-1" d="M101.12,0A101.12,101.12,0,1,0,202.24,101.12,101.12,101.12,0,0,0,101.12,0ZM159,148.76H43.28a11.57,11.57,0,0,1-10-17.34L91.09,31.16a11.57,11.57,0,0,1,20.06,0L169,131.43a11.57,11.57,0,0,1-10,17.34Z"/><path class="cls-1" d="M101.12,36.93h0L43.27,137.21H159L101.13,36.94Zm0,88.7a7.71,7.71,0,1,1,7.71-7.71A7.71,7.71,0,0,1,101.12,125.63Zm7.71-50.13a7.56,7.56,0,0,1-.11,1.3l-3.8,22.49a3.86,3.86,0,0,1-7.61,0l-3.8-22.49a8,8,0,0,1-.11-1.3,7.71,7.71,0,1,1,15.43,0Z"/></g></g></svg>
-                    <h1>Nous reviendrons bientôt !</h1>
-                    <div>
-                        <p>Désolé pour le désagrément. Nous effectuons quelques travaux de maintenance en ce moment. Si vous en avez besoin, vous pouvez toujours nous suivre sur <a href="https://discord.gg/fjpS7JTZPA">Discord</a> pour les mises à jour, sinon nous serons de retour sous peu !</p>
-                        <p>&mdash; L'équipe du Café Des Devs</p>
+                <section>
+                    <div id="annonce">
+                        <div> 
+                            <p>Titre de l'annonce</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem consectetur vel sint dignissimos qui explicabo mollitia ad minima necessitatibus, soluta maxime aliquam illo fuga, obcaecati quisquam suscipit modi est.
+                            Sapiente excepturi consectetur harum ad tenetur aut vel explicabo repudiandae? Id qui consectetur voluptate est fugit dolorem reiciendis quo iusto magni! Quo fugit saepe corrupti tempora dolore quas ipsam optio?
+                            Nam ducimus rerum atque nihil pariatur facilis reiciendis, fugiat magni hic optio recusandae error ullam dicta, est ab molestiae necessitatibus provident minima sapiente, quaerat ipsam laboriosam excepturi modi. A, veniam?
+                            </p>
+                        </div>
+                        <div> 
+                            <p>Titre de l'annonce</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem consectetur vel sint dignissimos qui explicabo mollitia ad minima necessitatibus, soluta maxime aliquam illo fuga, obcaecati quisquam suscipit modi est.
+                            Sapiente excepturi consectetur harum ad tenetur aut vel explicabo repudiandae? Id qui consectetur voluptate est fugit dolorem reiciendis quo iusto magni! Quo fugit saepe corrupti tempora dolore quas ipsam optio?
+                            Nam ducimus rerum atque nihil pariatur facilis reiciendis, fugiat magni hic optio recusandae error ullam dicta, est ab molestiae necessitatibus provident minima sapiente, quaerat ipsam laboriosam excepturi modi. A, veniam?
+                            </p>
+                        </div>
+
+                        <div> 
+                            <p>Titre de l'annonce</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem consectetur vel sint dignissimos qui explicabo mollitia ad minima necessitatibus, soluta maxime aliquam illo fuga, obcaecati quisquam suscipit modi est.
+                            Sapiente excepturi consectetur harum ad tenetur aut vel explicabo repudiandae? Id qui consectetur voluptate est fugit dolorem reiciendis quo iusto magni! Quo fugit saepe corrupti tempora dolore quas ipsam optio?
+                            Nam ducimus rerum atque nihil pariatur facilis reiciendis, fugiat magni hic optio recusandae error ullam dicta, est ab molestiae necessitatibus provident minima sapiente, quaerat ipsam laboriosam excepturi modi. A, veniam?
+                            </p>
+                        </div>
                     </div>
-                </article>
+                    <div class="cdd_terminal">
+                        Tapez votre commande ici... 
+                    </div>
+                    <div>
+                        <div class="cdd_join">
+                            Nous rejoindre
+                        </div>
+                        <div class="cdd_info">
+                            Information
+                            <div class="cdd_membre">
+                                <p>+ 1500 De membres actifs</p>
+                            </div>
+                            <div class="cdd_partenaire">
+                                <p>+ 4 partenaires</p>
+                            </div>
+                            <div class="cdd_challenge">
+                                <p>Aucun challenge en cours</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="cdd_corp">
+                    <div>
+                        Trouvez des solutions
+                    </div>
+                    <div>
+                        Faites des rencontres
+                    </div>
+                    <div>
+                        Participer aux animations
+                    </div>
+                    <div>
+                        Café Des Devs
+
+                        <div>
+                            Une nouvelle expérience
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum molestias ab ipsa illo et labore mollitia perferendis, laborum, quo expedita tenetur nulla molestiae similique tempora doloremque ea? Totam, illum dolore!
+                            </p>
+                        </div>
+
+                        <div>
+                            Une nouvelle expérience
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum molestias ab ipsa illo et labore mollitia perferendis, laborum, quo expedita tenetur nulla molestiae similique tempora doloremque ea? Totam, illum dolore!
+                            </p>
+                        </div>
+
+                        <div>
+                            Une nouvelle expérience
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum molestias ab ipsa illo et labore mollitia perferendis, laborum, quo expedita tenetur nulla molestiae similique tempora doloremque ea? Totam, illum dolore!
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="cdd_sponsor">
+                    Découvrez notre partenaire !
+                    <div>
+                        <p>Anti-DDoS Game</p>
+                        <p>Panel de gestion</p>
+                        <p>Support réactif</p>
+                        <p>Processeurs performants</p>
+                        <p>Interface simple</p>
+                        <p>SLA de 99.95%</p>
+                    </div>
+
+                    <div>Commencer</div>
+
+                </section>
+                <?= $show->footer(); ?>
             </div>
         </div>
         <?= $show->scripts(); ?>
